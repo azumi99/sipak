@@ -104,6 +104,9 @@ function Rupiah($angka)
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="<?= base_url('assets/apex/apexcharts.js') ?>"></script>
 <script>
+    console.log('test')
+</script>
+<script>
     function valueYear() {
         var mm = $('#selected_year').val();
         $.ajax({

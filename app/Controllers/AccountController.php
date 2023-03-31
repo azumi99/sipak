@@ -29,10 +29,10 @@ class AccountController extends BaseController
         ];
         return view('master/account', $data);
     }
-    public function update($id)
+    public function update($id_role)
     {
         $this->permissionModel->save([
-            'id_role'            => $id,
+            'id_role'            => $id_role,
             'user_id'            => $this->request->getVar('users_simpan'),
             'group_id'           => $this->request->getVar('role_simpan'),
         ]);

@@ -47,21 +47,21 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPHost = 'mail.anandanesia.com';
+    public $SMTPHost = 'disini isi mail servernya';
 
     /**
      * SMTP Username
      *
      * @var string
      */
-    public $SMTPUser = 'ilham.bintang@anandanesia.com';
+    public $SMTPUser = 'disini isi email';
 
     /**
      * SMTP Password
      *
      * @var string
      */
-    public $SMTPPass = 'Zlnzee!!171199';
+    public $SMTPPass = 'disini isi password';
 
     /**
      * SMTP Port

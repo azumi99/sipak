@@ -8,13 +8,13 @@ class PemisionModel extends Model
 {
     protected $DBGroup          = 'default';
     protected $table            = 'auth_groups_users';
-    protected $primaryKey       = 'id';
+    protected $primaryKey       = 'id_role';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id', 'user_id', 'group_id'];
+    protected $allowedFields    = ['id_role', 'user_id', 'group_id'];
 
     // Dates
     protected $useTimestamps = false;
